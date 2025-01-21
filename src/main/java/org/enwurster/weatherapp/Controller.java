@@ -23,7 +23,7 @@ import javafx.stage.Stage;
 import javafx.scene.control.Label;
 
 public class Controller {
-    //Most or all of the logic for the program, should be moved to a Controller.java class and Main.java should be just for gui initialization
+    //Most or all of the logic for the program, should be moved to a Controller.java class and NewMain.java should be just for gui initialization
     ObjectMapper mapper = new ObjectMapper();
 
     //API call info
