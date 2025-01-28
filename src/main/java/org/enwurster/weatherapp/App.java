@@ -67,6 +67,7 @@ public class App extends Application {
 
         //Make scene w/ layout, set the scene and show the stage
         Scene scene = new Scene(layout1, 400, 300);
+        scene.getStylesheets().add(getClass().getResource("style.css").toExternalForm());
         stage.setScene(scene);
         stage.show();
 
